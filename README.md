@@ -2,7 +2,6 @@
 
 This repository is for building a docker environment for [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) on windows
 
-
 ## usage
 
 ### Docker
