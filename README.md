@@ -24,5 +24,5 @@ This repository is for building a docker environment for [LIO-SAM](https://githu
 ```bash
 docker exec -it liosam-melodic bash
 $ roslaunch lio_sam run.launch
-$ rosbag play ./src/LIO-SAM/dataset/walking_dataset-004.bag -r 3
+$ rosbag play ./src/LIO-SAM/dataset/walking_dataset-004.bag velodyne_points:=points_raw imu:=imu_raw
 ```
